@@ -13,6 +13,7 @@
 		FAB32AAE1B8113BA00F5BF2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB32AAD1B8113BA00F5BF2A /* Images.xcassets */; };
 		FAB32AB11B8113BA00F5BF2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB32AAF1B8113BA00F5BF2A /* LaunchScreen.xib */; };
 		FAB32ABD1B8113BA00F5BF2A /* TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB32ABC1B8113BA00F5BF2A /* TipsTests.swift */; };
+		FAB32AC71B8575FA00F5BF2A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB32AC61B8575FA00F5BF2A /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FAB32AB61B8113BA00F5BF2A /* TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB32ABB1B8113BA00F5BF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB32ABC1B8113BA00F5BF2A /* TipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTests.swift; sourceTree = "<group>"; };
+		FAB32AC61B8575FA00F5BF2A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../images/background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		FAB32AA31B8113BA00F5BF2A /* Tips */ = {
 			isa = PBXGroup;
 			children = (
+				FAB32AC61B8575FA00F5BF2A /* background.png */,
 				FAB32AA61B8113BA00F5BF2A /* AppDelegate.swift */,
 				FAB32AA81B8113BA00F5BF2A /* ViewController.swift */,
 				FAB32AAA1B8113BA00F5BF2A /* Main.storyboard */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB32AAC1B8113BA00F5BF2A /* Main.storyboard in Resources */,
+				FAB32AC71B8575FA00F5BF2A /* background.png in Resources */,
 				FAB32AB11B8113BA00F5BF2A /* LaunchScreen.xib in Resources */,
 				FAB32AAE1B8113BA00F5BF2A /* Images.xcassets in Resources */,
 			);
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
