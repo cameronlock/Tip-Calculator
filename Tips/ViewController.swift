@@ -31,6 +31,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        twosplitLabel.text = "$0.00"
+        threesplitLabel.text = "$0.00"
+        foursplitLabel.text = "$0.00"
+        fivesplitLabel.text = "$0.00"
+
     }
 
     override func didReceiveMemoryWarning() {
